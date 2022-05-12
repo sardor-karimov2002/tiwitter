@@ -1,0 +1,253 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: whitesmoke;
+}
+
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1350px;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+
+.home {
+  width: 45%;
+  height: 700px;
+  background-color: whitesmoke;
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+}
+
+.home__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 10px;
+}
+
+.home__header .Group {
+  width: 25px;
+  height: 25px;
+}
+
+.home__heror {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.home__heror .profile {
+  margin: 10px;
+}
+
+.home__heror form input {
+  padding: 10px;
+  margin-top: 16px;
+  background-color: whitesmoke;
+  border: 0;
+  color: #5c5a5a;
+  font-size: 17px;
+}
+
+.home__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10px;
+}
+
+.home__section .imgCard {
+  margin-left: 40px;
+  height: 25px;
+}
+
+.home__section .button {
+  padding: 10px;
+  background-color: #1DA1F2;
+  border-radius: 8px;
+  border: 0;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.home__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid;
+  overflow-x: hidden;
+  padding: 5px 0;
+}
+
+.home__main .rasm {
+  width: 75px;
+  height: 75px;
+}
+
+.home__main .word {
+  margin-left: 20px;
+  border: none;
+}
+
+.home__main .word p {
+  width: 100%;
+}
+
+.home__main .word__img {
+  width: 90%;
+}
+
+.home__main .word .ovqat {
+  width: 100%;
+  margin-left: -40px;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  padding: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a5a4a4;
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px auto;
+  margin-top: 150px;
+}
+
+.login__form {
+  width: 70%;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login__form .username {
+  width: 100%;
+  background-color: white;
+  padding: 8px;
+  margin: 5px auto;
+  border-radius: 7px;
+}
+
+.login__form .password {
+  width: 100%;
+  background-color: white;
+  padding: 8px;
+  margin: 5px auto;
+  border-radius: 7px;
+}
+
+.login__form .button {
+  padding: 8px;
+  background-color: #1389eb;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  font-weight: 800;
+  border: 0;
+  margin-left: 10px;
+}
+
+.nav {
+  background-color: whitesmoke;
+  border-right: 1px solid;
+  width: 25%;
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.nav__ul {
+  list-style: none;
+}
+
+.nav__ul .li {
+  width: 100%;
+  font-size: 20px;
+  margin: 10px auto;
+  padding: 0 55px 0 5px;
+}
+
+.nav__ul .li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+  gap: 10px;
+  margin: 20px 10px;
+}
+
+.nav__ul .li a button {
+  background-color: #1DA1F2;
+  padding: 10px 60px;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-weight: 800;
+  font-size: 18px;
+  border: none;
+}
+
+.nav .active {
+  background-color: bisque;
+  padding: 5px 55px 5px 5px;
+  border-radius: 5px;
+  margin: 9px auto;
+}
+
+.box {
+  width: 30%;
+  overflow-y: scroll;
+  padding: 10px;
+  border-left: 1px solid;
+}
+/*# sourceMappingURL=style.css.map */
